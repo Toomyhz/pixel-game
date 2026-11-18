@@ -13,13 +13,34 @@ export const router = createBrowserRouter([
         element: <DashboardPage />,
       },
       {
+        path: "/usuarios",
+        element: <UsersPage />,
+      },
+      {
+        path: "/roles",
+        element: <UsersPage />,
+      },
+      {
+        path: "/permisos",
+        element: <UsersPage />,
+      },
+      {
         path: "/productos",
         element: <ProductsPage />,
       },
       {
-        path: "/usuarios",
+        path: "/tipo-productos",
         element: <UsersPage />,
       },
+      {
+        path: "/categorias",
+        element: <UsersPage />,
+      },
+      {
+        path: "/generos",
+        element: <UsersPage />,
+      },
+      
     ],
   },
 ]);
